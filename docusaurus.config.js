@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'whiteStone_dev',
   tagline: 'Open source software community.',
-  url: 'https://whitestonedev.com.br',
-  baseUrl: '/',
+  url: 'https://whitestonedev.github.io',
+  baseUrl: '/website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
