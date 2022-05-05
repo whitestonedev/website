@@ -67,7 +67,7 @@ const config = {
             position: "left",
           },
           {
-            to: "docs/tutorials",
+            to: "docs/intro",
             activeBasePath: "tutorials",
             label: "Tutorial",
             position: "left",
