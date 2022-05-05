@@ -91,7 +91,7 @@ function Home() {
           <div className="container">
             <div className="hero-inner">
               <img
-                src="/img/logo.png"
+                src={useBaseUrl("/img/logo.png")}
                 alt="whiteStone_dev logo"
                 className={styles.heroLogo}
               />
