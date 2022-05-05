@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'whiteStone_dev',
-  tagline: 'Grupo de desenvolvedores de software',
+  tagline: 'Open source software community.',
   url: 'https://whitestonedev.com.br',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -28,25 +28,18 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      "@docusaurus/preset-classic",
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/whitestonedev/website',
+          editUrl: 'https://github.com/whitestonedev/website',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/whitestonedev/website',
+          editUrl: 'https://github.com/whitestonedev/website',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/index.css"),
         },
       }),
     ],
@@ -58,7 +51,7 @@ const config = {
       navbar: {
         title: 'whiteStone_dev',
         logo: {
-          alt: 'Grupo de desenvolvedores de software',
+          alt: 'Open source community',
           src: 'img/logo.svg',
         },
         items: [
@@ -68,11 +61,30 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://github.com/whitestonedev/website',
+            to: "docs/intro",
+            activeBasePath: "docs",
+            label: "Documentation",
+            position: "left",
+          },
+          {
+            to: "docs/intro",
+            activeBasePath: "tutorials",
+            label: "Tutorial",
+            position: "left",
+          },
+          {
+            to: 'https://github.com/whitestonedev/website',
             label: 'GitHub',
             position: 'right',
           },
         ],
+      },
+      announcementBar: {
+        id: "new-major-announcement",
+        content:
+          "We are now on <a href='https://instagram.com/whitestonedev' target='_blank'>Instagram</a> and <a href='#' target='_blank'>YouTube</a> with amazing content.",
+        backgroundColor: "#1786fb",
+        textColor: "#fff",
       },
       footer: {
         style: 'dark',
@@ -86,7 +98,7 @@ const config = {
               },
               {
                 label: 'Instagram',
-                href: 'http://instagram.com/whitestonedev',
+                href: 'https://instagram.com/whitestonedev',
               },
             ],
           },
@@ -99,7 +111,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/whitestonedev/website',
+                to: 'https://github.com/whitestonedev/website',
               },
             ],
           },
@@ -107,8 +119,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} whiteStone_dev, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require("prism-react-renderer/themes/vsDark"),
       },
     }),
 };
