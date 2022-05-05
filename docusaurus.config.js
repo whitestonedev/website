@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'Slack',
-                href: 'https://join.slack.com/t/whitestonedev/shared_invite/zt-iqhz09yt-HboU1nBGmTMs4V4B2pbTkw',
+                href: 'https://join.slack.com/t/whitestonedev/shared_invite/zt-18gcudbpg-SeaLx27z4S4jvIZAYmxIAA',
               },
               {
                 label: 'Instagram',
