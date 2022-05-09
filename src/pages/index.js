@@ -44,10 +44,6 @@ const features = [
   },
 ]
 
-const kFormatter = (num) => {
-  return Math.sign(num) * (Math.abs(num) / 1000).toFixed(1) + "k"
-}
-
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl)
   return (
@@ -78,7 +74,7 @@ function Home() {
           "navbar__item navbar__link"
         )
         const githubStat = document.createElement("span")
-        githubStat.innerHTML = kFormatter(data.stargazers_count)
+        githubStat.innerHTML = data.stargazers_count
         githubStat.className = "github-counter"
         navLinks[3].appendChild(githubStat)
       })
