@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[951],{1369:function(e){e.exports=JSON.parse('{"label":"internet das coisas","permalink":"/website/blog/tags/internet-das-coisas","allTagsPath":"/website/blog/tags","count":1}')}}]);

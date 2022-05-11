@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/website/blog/welcome"},{"title":"O que \xe9 Internet of Things e como usar","permalink":"/website/blog/iot-introduction"}]}')}}]);
