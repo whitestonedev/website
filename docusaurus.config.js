@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {themes} = require('prism-react-renderer');
+import { themes } from 'prism-react-renderer';
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
@@ -125,4 +125,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;
