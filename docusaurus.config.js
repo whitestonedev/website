@@ -9,8 +9,8 @@ const darkTheme = themes.dracula;
 const config = {
   title: 'whiteStone_dev',
   tagline: 'Open source software community.',
-  url: 'https://whitestonedev.github.io',
-  baseUrl: '/website/',
+  url: 'https://whitestonedev.com.br',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-Br',
+    locales: ['pt-Br'],
   },
 
   presets: [
