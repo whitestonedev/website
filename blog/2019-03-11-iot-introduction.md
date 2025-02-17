@@ -1,5 +1,4 @@
 ---
-
 slug: iot-introduction
 title: 💡 O que é Internet of Things (IoT) e como usar - Guia Completo 🚀
 authors: [rafaelbmateus]
