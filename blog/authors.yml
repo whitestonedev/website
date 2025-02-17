@@ -8,3 +8,19 @@ whitestonedev:
   title: Organization
   url: whitestonedev.com.br
   image_url: https://github.com/whitestonedev.png
+gsoarescosta:
+  name: Gabriel Soares Costa
+  title: Software Engineer
+  url: https://github.com/gsoarescosta
+  image_url: https://github.com/gsoarescosta.png
+vitorstahelin:
+  name: Vitor Stahelin
+  title: Software Engineer
+  url: https://github.com/VStahelin
+  image_url: https://github.com/VStahelin.png
+
+danielrosa:
+  name: Daniel da Rosa
+  title: Software Engineer
+  url: https://github.com/danidr7
+  image_url: https://github.com/danidr7.png

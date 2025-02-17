@@ -8,6 +8,7 @@
   padding: 4rem 0 0 0;
   text-align: center;
   position: relative;
+  background: linear-gradient(180deg, #fefefe 70%, #f1f1f1 100%); /* Added background to heroBanner like previous version */
 }
 
 @media screen and (max-width: 966px) {
@@ -27,58 +28,152 @@
   }
 }
 
+.heroText {
+  text-align: center; /* Center text by default */
+}
+
 @media screen and (min-width: 689px) {
   .heroText {
-    display: inline-block;
+    display: inline-block; /* Side-by-side layout with logo on larger screens */
     margin: 1rem 1.5rem 0 2rem;
+    text-align: left; /* Align text to left when side-by-side */
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 1rem 0 1rem;
+.hero__title {
+  font-size: 3rem; /* Larger title for hero */
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+  line-height: 1.2;
 }
 
-.button {
-  margin: 0 0.5rem;
+.hero__title b {
+  color: #007bff; /* Example primary color */
 }
+
+.hero__title i {
+  color: #6c757d; /* Example secondary color */
+  font-style: italic;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem; /*  Subtitle for hero */
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
+  .hero__subtitle {
+    font-size: 1.2rem; /* Smaller subtitle on mobile */
+  }
+  .heroLogo {
+    width: 6rem; /* Smaller logo on mobile */
+  }
+  .heroText {
+    margin: 0; /* Reset side margins on mobile */
+  }
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons on mobile */
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem 0 1rem; /* Reduced padding for buttons section */
+}
+
+@media screen and (min-width: 769px) { /* For larger screens, keep buttons in row */
+  .buttons {
+    flex-direction: row;
+    padding: 4rem 1rem 0 1rem; /* Original padding for larger screens */
+  }
+}
+
+
+.button {
+  margin: 0.5rem 0; /* Vertical margin for stacked buttons */
+  width: 100%; /* Make buttons full width on mobile */
+  max-width: 300px; /* Limit max width for stacked buttons */
+}
+
+@media screen and (min-width: 769px) { /* For larger screens, keep buttons inline */
+  .button {
+    margin: 0 0.5rem; /* Original horizontal margin for larger screens */
+    width: auto; /* Auto width for inline buttons */
+    max-width: none; /* No max width for inline buttons */
+  }
+}
+
 
 .features {
   display: flex;
+  flex-direction: column; /* Stack features on mobile */
   align-items: center;
-  padding-top: 4rem;
-  margin: 0 auto 0 auto;
+  padding-top: 3rem; /* Reduced top padding for features */
+  padding-bottom: 3rem; /* Added bottom padding for features */
+  margin: 0 auto;
   width: 100%;
 }
 
+@media screen and (min-width: 967px) { /* For larger screens, keep features in row */
+  .features {
+    flex-direction: row;
+    padding-top: 4rem; /* Original top padding for larger screens */
+    padding-bottom: 0; /* Remove bottom padding for row layout */
+  }
+}
+
+
 .featuresTitle {
-  font-size: 2.5rem;
-  line-height: 3rem;
-  margin: 2rem 0 4rem 0;
+  font-size: 2rem; /* Slightly smaller features title on mobile */
+  line-height: 2.5rem; /* Adjust line height for smaller title */
+  margin: 1.5rem 0 2rem 0; /* Reduced margins for features title */
   text-align: center;
   font-weight: 800 !important;
 }
 
 .featuresTitle span {
-  display: inline-block;
-  margin: 0 1rem;
+  display: block; /* Stack spans by default on mobile */
+  margin: 0.5rem 0; /* Reduced vertical margin for stacked spans */
 }
 
-@media screen and (max-width: 966px) {
+@media screen and (min-width: 967px) { /* For larger screens, keep spans inline */
   .featuresTitle span {
-    display: block;
-    margin: 1rem 0;
+    display: inline-block;
+    margin: 0 1rem; /* Original horizontal margin for inline spans */
+  }
+  .featuresTitle {
+    font-size: 2.5rem; /* Original features title size for larger screens */
+    line-height: 3rem; /* Original line height for larger screens */
+    margin: 2rem 0 4rem 0; /* Original margins for larger screens */
   }
 }
 
 .features h3 {
-  font-size: 2rem;
-  line-height: 4rem;
-  margin: 1rem 0 2rem 0;
+  font-size: 1.5rem; /* Smaller feature h3 on mobile */
+  line-height: 2rem; /* Adjust line height for smaller h3 */
+  margin: 1rem 0 1.5rem 0; /* Reduced margins for feature h3 */
   font-weight: 800;
+  text-align: center; /* Center feature titles on mobile - **CORRECTION!** */
 }
+
+@media screen and (min-width: 967px) { /* For larger screens, keep original h3 size */
+  .features h3 {
+    font-size: 2rem; /* Original feature h3 size for larger screens */
+    line-height: 4rem; /* Original line height for larger screens */
+    margin: 1rem 0 2rem 0; /* Original margins for larger screens */
+    text-align: center; /* Center feature titles on larger screens - **CORRECTION!** */
+  }
+}
+
 
 .features ul {
   list-style: none;
@@ -90,7 +185,7 @@
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1rem;
-  white-space: nowrap;
+  white-space: normal; /* Changed to normal to allow text wrapping */
   text-align: center;
 }
 
@@ -100,9 +195,27 @@
 }
 
 .featureImage {
-  height: 220px;
-  width: 220px;
+  height: auto; /* Make image height auto to scale proportionally */
+  max-width: 100%; /* Make image responsive within its container */
 }
+
+.feature-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem; /* Reduced margin below image wrapper on mobile */
+}
+
+@media screen and (min-width: 967px) { /* For larger screens, keep original image size/wrapper */
+  .feature-image-wrapper {
+    margin-bottom: 2rem; /* Original margin below image wrapper */
+  }
+  .featureImage {
+    height: 220px; /* Original fixed height for larger screens */
+    width: 220px; /* Original fixed width for larger screens */
+  }
+}
+
 
 .homeSubtitle {
   justify-content: center;
@@ -110,6 +223,12 @@
   opacity: 0.6;
   font-style: italic;
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1rem; /* Slightly smaller subtitle on mobile */
   text-align: center;
+}
+
+@media screen and (min-width: 768px) { /*  Larger subtitle on desktop */
+  .homeSubtitle {
+    font-size: 1.2rem; /* Original subtitle size for desktop */
+  }
 }
