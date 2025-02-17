@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/site/logo_blue.svg',
 
   // GitHub pages deployment config.
   organizationName: 'whitestonedev',
@@ -32,6 +32,7 @@ const config = {
       "@docusaurus/preset-classic",
       ({
         docs: {
+          routeBasePath: '/eventos', // Mudança aqui
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/whitestonedev/website',
         },
@@ -53,7 +54,7 @@ const config = {
         title: 'whiteStone_dev',
         logo: {
           alt: 'Open source community',
-          src: 'img/logo.svg',
+          src: 'img/site/logo_blue.svg',
         },
         items: [
           {
@@ -62,15 +63,9 @@ const config = {
             position: 'left'
           },
           {
-            to: "docs/intro",
-            activeBasePath: "docs",
-            label: "Documentation",
-            position: "left",
-          },
-          {
-            to: "docs/intro",
-            activeBasePath: "tutorials",
-            label: "Tutorial",
+            to: "eventos/intro",
+            activeBasePath: "eventos",
+            label: "Eventos",
             position: "left",
           },
           {
@@ -123,6 +118,32 @@ const config = {
         additionalLanguages: ['bash', 'diff', 'json'],
       },
     }),
+
+    plugins: [
+      [
+        'docusaurus-plugin-includes',
+        {
+          sharedFolders: [
+            // Configuração para copiar pastas compartilhadas (opcional)
+          ],
+          postBuildDeletedFolders: [
+            // Configuração para deletar pastas após o build (opcional)
+          ],
+          replacements: [
+            // Configuração para substituir placeholders (opcional)
+          ],
+          embeds: [
+            // Configuração para embeds estilo remarkable-embed (opcional)
+          ],
+          injectedHtmlTags: {
+            // Configuração para injetar HTML tags (opcional)
+            headTags: [],
+            preBodyTags: [],
+            postBodyTags: [],
+          },
+        },
+      ],
+    ],
 };
 
 module.exports = config;

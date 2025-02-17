@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+# Bem-vindo aos Eventos whiteStone_dev
 
-Get started by **creating a new site**.
+Prepare-se para turbinar sua jornada tech com a gente\! A **whiteStone_dev** é uma comunidade open source vibrante, focada em conectar mentes criativas e apaixonadas por tecnologia 🚀. Se você busca aprendizado prático, networking de alto nível e muita troca de conhecimento, você está no lugar certo\!
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+# Proximo evento
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Cofira o evento por completo [aqui](/eventos/agenda/2019-05-23-whitestone_dev-3-iot-networking)
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+## O Que Esperar dos Nossos Eventos?
 
-The classic template will automatically be added to your project after you run the command:
+Nossos eventos são pensados para você, desenvolvedor(a) que está sempre em busca de novidades e aprimoramento. Em cada encontro, você pode esperar:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+* **Palestras e Workshops Práticos:** Mergulhe em temas relevantes do mundo tech, desde as últimas tendências em desenvolvimento web e mobile até inteligência artificial, cloud computing e muito mais. Nossos palestrantes são experts da área que compartilham conhecimento de forma clara e aplicável.
+* **Networking Tech de Qualidade:** Conecte-se com outros profissionais da área, troque ideias, experiências e faça novas amizades. Nossos eventos são o ambiente perfeito para expandir sua rede de contatos e encontrar novas oportunidades.
+* **Coffee Break Energizante:** Recarregue as energias com um coffee break delicioso e aproveite para continuar o networking em um ambiente mais descontraído.
+* **Comunidade Open Source:**  Faça parte de uma comunidade engajada e colaborativa, onde todos se ajudam e aprendem juntos. Acreditamos no poder do open source para transformar o mundo da tecnologia.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Fique por Dentro da Agenda\
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Este espaço é o seu guia para não perder nenhum evento **whiteStone_dev**.  Aqui você encontrará a agenda completa, com datas, horários, locais e temas dos próximos encontros.  Mantenha-se atualizado e prepare-se para participar\!
 
-## Start your site
+**Explore a agenda completa [aqui](/eventos/agenda)** (link para a página da agenda, quando criada).
 
-Run the development server:
+## Quer Ajudar a whiteStone_dev a Crescer?
 
-```bash
-cd my-website
-npm run start
-```
+A **whiteStone_dev** é uma iniciativa sem fins lucrativos, movida pela paixão da nossa comunidade. Para continuarmos a oferecer eventos incríveis e gratuitos, contamos com o apoio de empresas e parceiros que acreditam no nosso propósito.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Descubra como você ou sua empresa podem **patrocinar e colaborar** com a **whiteStone_dev** e fazer parte dessa jornada de crescimento e aprendizado\!
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+**Saiba mais sobre como apoiar o projeto [aqui](/eventos/patrocinio)** (link para a página de patrocínio, veja o MD abaixo).
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Junte-se à **whiteStone_dev** e vamos construir juntos o futuro da tecnologia\! 🚀

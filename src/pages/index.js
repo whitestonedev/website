@@ -9,36 +9,36 @@ import styles from "./index.module.css"
 
 const features = [
   {
-    title: "Community",
+    title: "Comunidade",
     imageUrl: "img/undraw/undraw_social.svg",
     description: (
       <ul>
-        <li>Created for devs to devs.</li>
-        <li>Share development experiences.</li>
-        <li>In a Open Source community.</li>
+        <li>Criado por devs para devs.</li>
+        <li>Compartilhe experiências de desenvolvimento.</li>
+        <li>Em uma comunidade Open Source.</li>
       </ul>
     ),
   },
   {
-    title: "Soft Skill",
+    title: "Soft Skills",
     imageUrl: "img/undraw/undraw_code_review_re_woeb.svg",
     description: (
       <ul>
-        <li>Community to share topics such as:</li>
-        <li>Microservices / APIs / Documentation</li>
-        <li>Full Stack / Back/Front-end Web development</li>
-        <li>Internet of Things / Cryptocurrencies / Blockchain</li>
+        <li>Comunidade para compartilhar tópicos como:</li>
+        <li>Microsserviços / APIs / Documentação</li>
+        <li>Desenvolvimento Web Full Stack / Back/Front-end</li>
+        <li>Internet das Coisas / Criptomoedas / Blockchain</li>
       </ul>
     ),
   },
   {
-    title: "Hard Skill",
+    title: "Hard Skills",
     imageUrl: "img/undraw/undraw_programmer_re_owql.svg",
     description: (
       <ul>
-        <li>Community to share programming languages like:</li>
-        <li>Go lang / Python / Ruby / JavaScript</li>
-        <li>Share your code repository with other devs</li>
+        <li>Comunidade para compartilhar linguagens de programação como:</li>
+        <li>Go / Python / Ruby / JavaScript</li>
+        <li>Compartilhe seu repositório de código com outros devs</li>
       </ul>
     ),
   },
@@ -51,12 +51,12 @@ function Feature({ imageUrl, title, description }) {
       {imgUrl && (
         <div className="text--center">
           <div className="feature-image-wrapper">
-            <img className={styles.featureImage} src={imgUrl} alt={title} />
+            <img className={styles.featureImage} src={imgUrl} alt={`Ícone ${title}`} />
           </div>
         </div>
       )}
       <h3 className="text--center">{title}</h3>
-      <div>{description}</div>
+      <div className={styles.featureDescription}>{description}</div>
     </div>
   )
 }
@@ -76,36 +76,35 @@ function Home() {
         const githubStat = document.createElement("span")
         githubStat.innerHTML = data.stargazers_count
         githubStat.className = "github-counter"
-        navLinks[3].appendChild(githubStat)
+        navLinks[2].appendChild(githubStat)
       })
   }, [])
   return (
-    <Layout description={siteConfig.tagline}>
+    <Layout description="Uma comunidade para desenvolvedores.">
       <Seo />
       <div className="home-wrapper">
         <header className={classnames("hero", styles.heroBanner)}>
           <div className="container">
             <div className="hero-inner">
               <img
-                src={useBaseUrl("/img/logo.png")}
-                alt="whiteStone_dev logo"
+                src={useBaseUrl("/img/site/logo_blue.svg")}
+                alt="logotipo whiteStone_dev"
                 className={styles.heroLogo}
               />
               <div className={styles.heroText}>
                 <h1 className="hero__title">white<b>Stone</b>_<i>dev</i></h1>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <p className="hero__subtitle">Uma comunidade para desenvolvedores.</p>
               </div>
               <div className={styles.buttons}>
-                <a
+                <Link
                   className={classnames(
                     "button button--outline button--secondary button--lg rounded-pill",
                     styles.button
                   )}
-                  href="https://join.slack.com/t/whitestonedev/shared_invite/zt-18gcudbpg-SeaLx27z4S4jvIZAYmxIAA"
-                  target="_blank"
+                  to={useBaseUrl("/eventos/intro")}
                 >
-                  Join slack
-                </a>
+                  Eventos
+                </Link>
                 <Link
                   className={classnames(
                     "button button--primary button--lg rounded-pill",
@@ -113,7 +112,7 @@ function Home() {
                   )}
                   to={useBaseUrl("/blog")}
                 >
-                  About us
+                  Sobre nós
                 </Link>
               </div>
             </div>
@@ -128,7 +127,7 @@ function Home() {
               <div className="row">
                 <div className="col">
                   <h2 className={styles.featuresTitle}>
-                    <span>Open Source.</span> <span>Full Stack.</span> <span>Geek Tips.</span> <span>Community.</span>
+                    <span>Open Source.</span> <span>Full Stack.</span> <span>Geek Tips.</span> <span>Comunidade.</span>
                   </h2>
                 </div>
               </div>
@@ -148,7 +147,7 @@ function Home() {
                       href="https://github.com/whitestonedev"
                       className="button button--primary button--outline rounded-pill button--lg"
                     >
-                      GitHub Community
+                      Comunidade GitHub
                     </a>
                   </p>
                 </div>
