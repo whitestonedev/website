@@ -78,7 +78,8 @@ function Home() {
         githubStat.className = "github-counter"
         navLinks[2].appendChild(githubStat)
       })
-  }, [])
+  },)
+
   return (
     <Layout description="Uma comunidade para desenvolvedores.">
       <Seo />
@@ -110,7 +111,7 @@ function Home() {
                     "button button--primary button--lg rounded-pill",
                     styles.button
                   )}
-                  to={useBaseUrl("/blog")}
+                  to={useBaseUrl("/eventos/sobre-nos")}
                 >
                   Sobre nós
                 </Link>
@@ -122,6 +123,57 @@ function Home() {
           </div>
         </header>
         <main className="home-main">
+        <section className={classnames("section-cards", styles.cardContainer)}>
+            <div className={classnames("card", styles.cardSection)}>
+              <h2 className={styles.sectionTitle}>
+                Sobre os Eventos whiteStone_dev
+              </h2>
+              <p className={styles.sectionDescription}>
+                Um espaço vibrante para devs se encontrarem, aprenderem e
+                crescerem juntos. Nossos eventos são focados em:
+              </p>
+              <ul className={styles.sectionList}>
+                <li>🚀 Palestras e Workshops Práticos</li>
+                <li>🤝 Networking de Alto Nível</li>
+                <li>🧑‍💻 Comunidade Open Source</li>
+              </ul>
+              <Link
+                className={classnames(
+                  "button button--primary button--lg rounded-pill",
+                  styles.button,
+                  styles.sectionButton
+                )}
+                to={useBaseUrl("/eventos/intro")}
+              >
+                Confira os próximos eventos
+              </Link>
+            </div>
+
+            <div className={classnames("card", styles.cardSection)}>
+              <h2 className={styles.sectionTitle}>
+                Como Ajudar a whiteStone_dev
+              </h2>
+              <p className={styles.sectionDescription}>
+                Mantenha a comunidade ativa e gratuita! Seu apoio é essencial
+                para continuarmos a oferecer eventos incríveis. Ajude-nos a:
+              </p>
+              <ul className={styles.sectionList}>
+                <li>❤️ Manter Eventos Gratuitos</li>
+                <li>💪 Fortalecer a Comunidade Tech</li>
+                <li>💡 Promover Inovação e Open Source</li>
+              </ul>
+              <Link
+                className={classnames(
+                  "button button--primary button--lg rounded-pill",
+                  styles.button,
+                  styles.sectionButton
+                )}
+                to={useBaseUrl("/eventos/patrocinio")}
+              >
+                Descubra como apoiar
+              </Link>
+            </div>
+          </section>
           <section className={`section-features ${styles.features}`}>
             <div className="container">
               <div className="row">
@@ -138,6 +190,8 @@ function Home() {
               </div>
             </div>
           </section>
+          
+          
           <section>
             <div className="container">
               <div className="row">

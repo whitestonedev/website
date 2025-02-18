@@ -50,6 +50,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark', 
+        disableSwitch: false, 
+        respectPrefersColorScheme: false, 
+      },
       navbar: {
         title: 'whiteStone_dev',
         logo: {
@@ -83,7 +88,6 @@ const config = {
         textColor: "#fff",
       },
       footer: {
-        style: 'dark',
         links: [
           {
             title: 'Community',
