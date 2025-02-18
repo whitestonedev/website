@@ -16,13 +16,13 @@ As pessoas vão ver você programando no café e te perguntar: "Isso é incríve
 
 ## Install 💻
 
-* via curl
+- via curl
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-* via wget
+- via wget
 
 ```sh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"

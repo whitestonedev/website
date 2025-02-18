@@ -11,8 +11,8 @@ No dia **22 de março de 2019**, aconteceu o terceiro Meetup do grupo **whiteSto
 
 **O que rolou?**
 
-* 💬 **Discussão sobre IoT e Indústria 4.0.**
-* 🔄 **Networking e troca de experiências entre os participantes.**
+- 💬 **Discussão sobre IoT e Indústria 4.0.**
+- 🔄 **Networking e troca de experiências entre os participantes.**
 
 ---
 
@@ -20,9 +20,9 @@ No dia **22 de março de 2019**, aconteceu o terceiro Meetup do grupo **whiteSto
 
 Confira a programação completa do evento:
 
-* **19h00:** 🚪 Abertura
-* **19h20:** 🌟 **Palestra:** "O que é IoT e a indústria 4.0, como usar e agregar valor?" com [Matheus Ceballos](https://www.linkedin.com/in/matheus-ceballos-5557a837/)
-* **21h00:** 📅 Encerramento
+- **19h00:** 🚪 Abertura
+- **19h20:** 🌟 **Palestra:** "O que é IoT e a indústria 4.0, como usar e agregar valor?" com [Matheus Ceballos](https://www.linkedin.com/in/matheus-ceballos-5557a837/)
+- **21h00:** 📅 Encerramento
 
 ---
 

@@ -22,8 +22,6 @@ Internet das Coisas: Desenvolver e empreender - [Vinicius Sebastião](https://ww
 ### Valeu pessoal, nos vemos em breve
 
 Interessado no **próximo evento**? Siga nossas redes para mais novidades.
-    [Facebook](http://facebook.com/whitestonedevelopers)
-    - [Instagram](http://instagram.com/whitestonedevelopers)
-    - [GitHub](http://github.com/whitestonedevelopers)
+[Facebook](http://facebook.com/whitestonedevelopers) - [Instagram](http://instagram.com/whitestonedevelopers) - [GitHub](http://github.com/whitestonedevelopers)
 
 Acompanhe nosso [blog](https://whitestonedev.com.br/posts) -> posts todas as semanas.

@@ -2,7 +2,7 @@
  * and scoped locally.
  */
 
- .heroBanner {
+.heroBanner {
   padding: 4rem 0 0 0;
   text-align: center;
   position: relative;
@@ -63,7 +63,6 @@
   margin-bottom: 20px;
 }
 
-
 @media screen and (max-width: 768px) {
   .hero__title {
     font-size: 2rem;
@@ -78,7 +77,6 @@
     margin: 0;
   }
 }
-
 
 .buttons {
   display: flex;
@@ -95,18 +93,15 @@
   }
 }
 
-
 .button {
   margin: 0.5rem 0;
 }
-
 
 @media screen and (min-width: 769px) {
   .button {
     margin: 0 0.5rem;
   }
 }
-
 
 .features {
   display: flex;
@@ -125,7 +120,6 @@
     padding-bottom: 0;
   }
 }
-
 
 .featuresTitle {
   font-size: 2rem;
@@ -171,7 +165,6 @@
   }
 }
 
-
 .features ul {
   list-style: none;
   text-align: center;
@@ -213,7 +206,6 @@
     width: 220px;
   }
 }
-
 
 .homeSubtitle {
   justify-content: center;
@@ -268,7 +260,7 @@
   justify-content: space-between;
 }
 
-html[data-theme="dark"] .cardSection {
+html[data-theme='dark'] .cardSection {
   box-shadow: 0 4px 16px rgba(87, 87, 87, 0.3);
 }
 
@@ -300,7 +292,7 @@ html[data-theme="dark"] .cardSection {
 }
 
 .sectionList li::before {
-  content: "•";
+  content: '•';
   color: var(--ifm-color-primary);
   display: inline-block;
   width: 1em;

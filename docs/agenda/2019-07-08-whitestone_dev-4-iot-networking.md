@@ -11,8 +11,8 @@ No dia **06 de julho de 2019**, foi realizado o quarto Meetup do grupo **whiteSt
 
 **O que rolou?**
 
-* 💬 **Discussão sobre Domótica e IoT.**
-* 🔄 **Networking e troca de experiências entre os participantes.**
+- 💬 **Discussão sobre Domótica e IoT.**
+- 🔄 **Networking e troca de experiências entre os participantes.**
 
 ---
 
@@ -20,11 +20,11 @@ No dia **06 de julho de 2019**, foi realizado o quarto Meetup do grupo **whiteSt
 
 Confira a programação completa do evento:
 
-* **14h00:** 🚪 Abertura
-* **14h30:** 🌟 **Palestra:** "Domótica 101" com [Gabriel Soares Costa](https://www.linkedin.com/in/gsoarescosta/)
-* **15h10:** ☕ Coffee break
-* **15h30:** 🌟 **Palestra:** "Uma volta de Cayenne - IoT na prática" com [Rafael Mateus](https://www.linkedin.com/in/rafaelbmateus/)
-* **16h45:** 📅 Encerramento
+- **14h00:** 🚪 Abertura
+- **14h30:** 🌟 **Palestra:** "Domótica 101" com [Gabriel Soares Costa](https://www.linkedin.com/in/gsoarescosta/)
+- **15h10:** ☕ Coffee break
+- **15h30:** 🌟 **Palestra:** "Uma volta de Cayenne - IoT na prática" com [Rafael Mateus](https://www.linkedin.com/in/rafaelbmateus/)
+- **16h45:** 📅 Encerramento
 
 ---
 

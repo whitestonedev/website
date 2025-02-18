@@ -11,8 +11,8 @@ Preparem-se para o último evento do ano da whiteStone_dev! No dia **01 de novem
 
 **O que rolou?**
 
-* 💬 **Discussão sobre Cloud Computing, DevOps e ferramentas para devs.**
-* 🔄 **Networking e troca de experiências entre os participantes.**
+- 💬 **Discussão sobre Cloud Computing, DevOps e ferramentas para devs.**
+- 🔄 **Networking e troca de experiências entre os participantes.**
 
 ---
 
@@ -20,11 +20,11 @@ Preparem-se para o último evento do ano da whiteStone_dev! No dia **01 de novem
 
 Confira a programação completa do evento:
 
-* **19h00:** 🚪 Abertura
-* **19h00:** 🌟 **Palestra:** Talk sobre Cloud
-* **19h45:** ☕ Coffee break
-* **20h00:** 🌟 **Palestra:** Case de migração de servidores dedicados da Neoway para Cloud (AWS -> Azure -> GCP) com [Luciano Faustino](https://www.linkedin.com/in/lborguetti/)
-* **20h45:** 🤝 Networking
+- **19h00:** 🚪 Abertura
+- **19h00:** 🌟 **Palestra:** Talk sobre Cloud
+- **19h45:** ☕ Coffee break
+- **20h00:** 🌟 **Palestra:** Case de migração de servidores dedicados da Neoway para Cloud (AWS -> Azure -> GCP) com [Luciano Faustino](https://www.linkedin.com/in/lborguetti/)
+- **20h45:** 🤝 Networking
 
 ---
 
