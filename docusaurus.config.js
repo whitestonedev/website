@@ -52,7 +52,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/whitestonedev/lading-page',
+          editUrl: 'https://github.com/whitestonedev/landing-page',
         },
         theme: {
           customCss: require.resolve("./src/css/index.css"),
@@ -88,7 +88,7 @@ const config = {
             position: "left",
           },
           {
-            to: 'https://github.com/whitestonedev/lading-page',
+            to: 'https://github.com/whitestonedev/landing-page',
             label: 'GitHub',
             position: 'right',
           },
@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                to: 'https://github.com/whitestonedev/lading-page',
+                to: 'https://github.com/whitestonedev/landing-page',
               },
             ],
           },
