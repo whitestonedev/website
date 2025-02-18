@@ -11,7 +11,7 @@ Prepare-se para turbinar sua jornada tech com a gente! A **whiteStone_dev** é u
 # Confira abaixo a prévia do próximo evento 🔍
 
 ---
-{@include: /Agenda/_envents_pills/2025-04-25-fenix.md}
+{@include: /Agenda/_envents_pills/2025-04-24-fenix.md}
 
 ### Para mais informações, confira o completo [aqui](/eventos/Agenda/2025-04-24-fenix)
 
