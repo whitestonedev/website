@@ -67,7 +67,7 @@ function Home() {
 
   useEffect(() => {
     window
-      .fetch("https://api.github.com/repos/whitestonedev/website")
+      .fetch("https://api.github.com/repos/whitestonedev/landing-page")
       .then((res) => res.json())
       .then((data) => {
         const navLinks = document.getElementsByClassName(
