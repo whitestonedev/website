@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Bem-vindo aos Eventos whiteStone_dev
 
-Prepare-se para turbinar sua jornada tech com a gente\! A **whiteStone_dev** é uma comunidade open source vibrante, focada em conectar mentes criativas e apaixonadas por tecnologia 🚀. Se você busca aprendizado prático, networking de alto nível e muita troca de conhecimento, você está no lugar certo!
+Prepare-se para turbinar sua jornada tech com a gente! A **whiteStone_dev** é uma comunidade open source vibrante, focada em conectar mentes criativas e apaixonadas por tecnologia 🚀. Se você busca aprendizado prático, networking de alto nível e muita troca de conhecimento, você está no lugar certo!
 
 ---
 
@@ -13,7 +13,7 @@ Prepare-se para turbinar sua jornada tech com a gente\! A **whiteStone_dev** é 
 ---
 {@include: /Agenda/_envents_pills/2025-04-25-fenix.md}
 
-### Para mais informações, confira o completo [aqui](/eventos/Agenda/2025-04-25-fenix)
+### Para mais informações, confira o completo [aqui](/eventos/Agenda/2025-04-24-fenix)
 
 ---
 
