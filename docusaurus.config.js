@@ -31,7 +31,7 @@ const config = {
         docs: {
           routeBasePath: '/eventos',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/whitestonedev/lading-page',
+          editUrl: 'https://github.com/whitestonedev/landing-page',
           sidebarItemsGenerator: async function({ defaultSidebarItemsGenerator, ...args }) {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             function traverse(items) {
