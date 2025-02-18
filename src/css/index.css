@@ -9,17 +9,17 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-link: #289ef9;
-  --ifm-color-primary: #1eb1fc;
-  --ifm-color-primary-dark: #03a7fa;
-  --ifm-color-primary-darker: #039eed;
-  --ifm-color-primary-darkest: #0382c3;
-  --ifm-color-primary-light: #3abbfc;
-  --ifm-color-primary-lighter: #48bffd;
-  --ifm-color-primary-lightest: #03a7fa;
+  --ifm-color-link: #1151BD;
+  --ifm-color-primary: #1151BD;
+  --ifm-color-primary-dark: #0B3B8A;
+  --ifm-color-primary-darker: #093277;
+  --ifm-color-primary-darkest: #072863;
+  --ifm-color-primary-light: #4D7C8C;
+  --ifm-color-primary-lighter: #6A95A3;
+  --ifm-color-primary-lightest: #A2BFC7;
   --ifm-code-font-size: 95%;
-  --ifm-color-info: #1eb1fc;
-  --ifm-color-success: #1eb1fc;
+  --ifm-color-info: #395482;
+  --ifm-color-success: #4D7C8C;
   --ifm-color-warning: #c94b4b;
   --ifm-font-family-base: -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
     Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -36,13 +36,13 @@ html[data-theme="dark"]:root {
   --ifm-color-link: #289ef9;
   --ifm-footer-background-color: #000;
   --ifm-html-background-color: #242526;
-  --ifm-background-color: #090909;
+  --ifm-background-color: #171318;
   --ifm-hero-background-color: #111111;
   --ifm-navbar-background-color: rgba(0, 0, 0, 0.95);
 }
 
 html[data-theme="dark"] {
-  --ifm-background-color: #1f201c;
+  --ifm-background-color: #171318;
 }
 
 @import "hero.css";

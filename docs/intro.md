@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-
-
 # Bem-vindo aos Eventos whiteStone_dev
 
 Prepare-se para turbinar sua jornada tech com a gente\! A **whiteStone_dev** é uma comunidade open source vibrante, focada em conectar mentes criativas e apaixonadas por tecnologia 🚀. Se você busca aprendizado prático, networking de alto nível e muita troca de conhecimento, você está no lugar certo!
@@ -14,9 +12,9 @@ Prepare-se para turbinar sua jornada tech com a gente\! A **whiteStone_dev** é 
 
 ### Confira o preview do proximo evento a baixo
 
-{@include: /agenda/_envents_pills/2019-11-05-teste-evento2.md}
+{@include: /Agenda/_envents_pills/2019-11-05-teste-evento2.md}
 
-### Cofira o evento por completo [aqui](/eventos/agenda/2019-05-23-whitestone_dev-3-iot-networking)
+### Cofira o evento por completo [aqui](/eventos/Agenda/2019-05-23-whitestone_dev-3-iot-networking)
 
 ---
 
@@ -33,7 +31,7 @@ Nossos eventos são pensados para você, desenvolvedor(a) que está sempre em bu
 
 Este espaço é o seu guia para não perder nenhum evento **whiteStone_dev**.  Aqui você encontrará a agenda completa, com datas, horários, locais e temas dos próximos encontros.  Mantenha-se atualizado e prepare-se para participar!
 
-**Explore a agenda completa [aqui](/eventos/agenda)** (link para a página da agenda, quando criada).
+**Explore a agenda completa [aqui](/eventos/Agenda)** (link para a página da agenda, quando criada).
 
 ## Quer Ajudar a whiteStone_dev a Crescer?
 

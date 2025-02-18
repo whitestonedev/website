@@ -17,7 +17,7 @@ html[data-theme="dark"] .button:active {
 
 .button--primary,
 .button--primary:hover {
-  background: linear-gradient(0deg, #1786fb 0%, #2cfefe 100%) !important;
+  background: linear-gradient(0deg, #1b3258 0%, #1151BD 100%) !important;
   color: #fff;
 }
 
