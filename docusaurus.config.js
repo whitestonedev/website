@@ -31,7 +31,7 @@ const config = {
         docs: {
           routeBasePath: '/eventos',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/whitestonedev/landing-page',
+          editUrl: 'https://github.com/whitestonedev/landing-page/edit/main/',
           sidebarItemsGenerator: async function({ defaultSidebarItemsGenerator, ...args }) {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             function traverse(items) {
@@ -52,7 +52,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/whitestonedev/landing-page',
+          editUrl: 'https://github.com/whitestonedev/landing-page/edit/main/',
         },
         theme: {
           customCss: require.resolve("./src/css/index.css"),
