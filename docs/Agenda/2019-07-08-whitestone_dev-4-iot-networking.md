@@ -1,5 +1,5 @@
 ---
-title: 08/07/2019 - whiteStone_dev - 4ª Edição | IoT + Networking
+title: 08/07/2019 - 4ª Edição | IoT + Networking
 tags: [Meetup, IoT, Recuperação]
 ---
 

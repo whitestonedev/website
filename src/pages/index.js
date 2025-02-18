@@ -81,7 +81,7 @@ function Home() {
   },)
 
   return (
-    <Layout description="Uma comunidade para desenvolvedores.">
+    <Layout description="Open Source, Open Minds, Open Tech.">
       <Seo />
       <div className="home-wrapper">
         <header className={classnames("hero", styles.heroBanner)}>
@@ -94,7 +94,7 @@ function Home() {
               />
               <div className={styles.heroText}>
                 <h1 className="hero__title">white<b>Stone</b>_<i>dev</i></h1>
-                <p className="hero__subtitle">Uma comunidade para desenvolvedores.</p>
+                <p className="hero__subtitle">Open Source, Open Minds, Open Tech.</p>
               </div>
               <div className={styles.buttons}>
                 <Link

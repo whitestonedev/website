@@ -8,13 +8,12 @@ Prepare-se para turbinar sua jornada tech com a gente\! A **whiteStone_dev** é 
 
 ---
 
-# Proximo evento
+# Confira abaixo a prévia do próximo evento 🔍
 
-### Confira o preview do proximo evento a baixo
+---
+{@include: /Agenda/_envents_pills/2025-04-25-fenix.md}
 
-{@include: /Agenda/_envents_pills/2019-11-05-teste-evento2.md}
-
-### Cofira o evento por completo [aqui](/eventos/Agenda/2019-05-23-whitestone_dev-3-iot-networking)
+### Para mais informações, confira o completo [aqui](/eventos/Agenda/2025-04-25-fenix)
 
 ---
 

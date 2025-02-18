@@ -1,5 +1,5 @@
 ---
-title: 01/11/2020 - whiteStone_dev - 6ª Edição | Carreira Dev
+title: 01/11/2020 - 6ª Edição | Carreira Dev
 tags: [Meetup, Carreira]
 ---
 
