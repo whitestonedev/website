@@ -17,7 +17,7 @@ const config = {
 
   // GitHub pages deployment config.
   organizationName: 'whitestonedev',
-  projectName: 'website',
+  projectName: 'landing-page',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,11 +34,11 @@ const config = {
         docs: {
           routeBasePath: '/eventos', // Mudança aqui
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/whitestonedev/website',
+          editUrl: 'https://github.com/whitestonedev/lading-page',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/whitestonedev/website',
+          editUrl: 'https://github.com/whitestonedev/lading-page',
         },
         theme: {
           customCss: require.resolve("./src/css/index.css"),
@@ -74,7 +74,7 @@ const config = {
             position: "left",
           },
           {
-            to: 'https://github.com/whitestonedev/website',
+            to: 'https://github.com/whitestonedev/lading-page',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                to: 'https://github.com/whitestonedev/website',
+                to: 'https://github.com/whitestonedev/lading-page',
               },
             ],
           },
