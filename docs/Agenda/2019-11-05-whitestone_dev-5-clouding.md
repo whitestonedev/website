@@ -1,5 +1,5 @@
 ---
-title: 01/11/2019 - whiteStone_dev - 5ª Edição | Clouding
+title: 01/11/2019 - 5ª Edição | Clouding
 tags: [Meetup, Clouding]
 ---
 
