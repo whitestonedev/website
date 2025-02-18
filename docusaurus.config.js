@@ -32,6 +32,8 @@ const config = {
           routeBasePath: '/eventos',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/whitestonedev/landing-page/edit/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarItemsGenerator: async function ({
             defaultSidebarItemsGenerator,
             ...args
