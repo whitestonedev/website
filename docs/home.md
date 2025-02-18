@@ -7,14 +7,14 @@ sidebar_position: 1
 Prepare-se para turbinar sua jornada tech com a gente! A **whiteStone_dev** é uma comunidade open source vibrante, focada em conectar mentes criativas e apaixonadas por tecnologia 🚀. Se você busca aprendizado prático, networking de alto nível e muita troca de conhecimento, você está no lugar certo!
 
 ---
+<details>
+        <summary>Confira a prévia do próximo evento 🔍</summary>
 
-# Confira abaixo a prévia do próximo evento 🔍
+{@include: /agenda/_envents_pills/2025-04-24-fenix.md}
 
----
-{@include: /Agenda/_envents_pills/2025-04-24-fenix.md}
+### Para mais informações, confira o completo [aqui](/eventos/agenda/2025-04-24-fenix)
 
-### Para mais informações, confira o completo [aqui](/eventos/Agenda/2025-04-24-fenix)
-
+</details>
 ---
 
 ## O Que Esperar dos Nossos Eventos?
@@ -30,7 +30,7 @@ Nossos eventos são pensados para você, desenvolvedor(a) que está sempre em bu
 
 Este espaço é o seu guia para não perder nenhum evento **whiteStone_dev**.  Aqui você encontrará a agenda completa, com datas, horários, locais e temas dos próximos encontros.  Mantenha-se atualizado e prepare-se para participar!
 
-**Explore a agenda completa [aqui](/eventos/Agenda)** (link para a página da agenda, quando criada).
+**Explore a agenda completa [aqui](/eventos/category/agenda)** (link para a página da agenda, quando criada).
 
 ## Quer Ajudar a whiteStone_dev a Crescer?
 
@@ -38,6 +38,6 @@ A **whiteStone_dev** é uma iniciativa sem fins lucrativos, movida pela paixão 
 
 Descubra como você ou sua empresa podem **patrocinar e colaborar** com a **whiteStone_dev** e fazer parte dessa jornada de crescimento e aprendizado!
 
-**Saiba mais sobre como apoiar o projeto [aqui](/eventos/patrocinio)** (link para a página de patrocínio, veja o MD abaixo).
+**Saiba mais sobre como apoiar o projeto [aqui](/eventos/sobre/patrocinio)** (link para a página de patrocínio, veja o MD abaixo).
 
 Junte-se à **whiteStone_dev** e vamos construir juntos o futuro da tecnologia! 🚀

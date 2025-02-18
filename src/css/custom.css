@@ -1,0 +1,12 @@
+/* Altera a cor de fundo e da borda do <details> */
+details {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  /* Altera a cor do texto do <summary> (o label) */
+  details summary {
+    color: #007acc;
+    cursor: pointer;
+  }

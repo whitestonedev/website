@@ -48,6 +48,7 @@ html[data-theme="dark"] {
 @import "hero.css";
 @import "buttons.css";
 @import "navbar.css";
+@import "custom.css";
 
 @media screen and (max-width: 360px) {
   html {

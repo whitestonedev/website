@@ -19,9 +19,6 @@ const config = {
   organizationName: 'whitestonedev',
   projectName: 'landing-page',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'pt-Br',
     locales: ['pt-Br'],
@@ -32,9 +29,26 @@ const config = {
       "@docusaurus/preset-classic",
       ({
         docs: {
-          routeBasePath: '/eventos', // Mudança aqui
+          routeBasePath: '/eventos',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/whitestonedev/landing-page',
+          editUrl: 'https://github.com/whitestonedev/lading-page',
+          sidebarItemsGenerator: async function({ defaultSidebarItemsGenerator, ...args }) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            function traverse(items) {
+              return items.map(item => {
+                if (item.type === 'category') {
+                  if (item.label === 'Agenda' && Array.isArray(item.items)) { // Just sorting the 'Agenda' category, by date reverse.
+                    item.items = item.items.reverse();
+                  }
+                  if (item.items) {
+                    item.items = traverse(item.items);
+                  }
+                }
+                return item;
+              });
+            }
+            return traverse(sidebarItems);
+          },
         },
         blog: {
           showReadingTime: true,
@@ -68,7 +82,7 @@ const config = {
             position: 'left'
           },
           {
-            to: "eventos/intro",
+            to: "eventos/home",
             activeBasePath: "eventos",
             label: "Eventos",
             position: "left",
@@ -123,31 +137,30 @@ const config = {
       },
     }),
 
-    plugins: [
-      [
-        'docusaurus-plugin-includes',
-        {
-          sharedFolders: [
-            // Configuração para copiar pastas compartilhadas (opcional)
-          ],
-          postBuildDeletedFolders: [
-            // Configuração para deletar pastas após o build (opcional)
-          ],
-          replacements: [
-            // Configuração para substituir placeholders (opcional)
-          ],
-          embeds: [
-            // Configuração para embeds estilo remarkable-embed (opcional)
-          ],
-          injectedHtmlTags: {
-            // Configuração para injetar HTML tags (opcional)
-            headTags: [],
-            preBodyTags: [],
-            postBodyTags: [],
-          },
+  plugins: [
+    [
+      'docusaurus-plugin-includes',
+      {
+        sharedFolders: [
+          // Configuração para copiar pastas compartilhadas (opcional)
+        ],
+        postBuildDeletedFolders: [
+          // Configuração para deletar pastas após o build (opcional)
+        ],
+        replacements: [
+          // Configuração para substituir placeholders (opcional)
+        ],
+        embeds: [
+          // Configuração para embeds estilo remarkable-embed (opcional)
+        ],
+        injectedHtmlTags: {
+          headTags: [],
+          preBodyTags: [],
+          postBodyTags: [],
         },
-      ],
+      },
     ],
+  ],
 };
 
 module.exports = config;
