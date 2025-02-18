@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   build:
@@ -16,17 +16,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-    
+
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-      
+
       - name: Build Project
         run: npm run build
 
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "build/."
+          path: 'build/.'
 
   deploy:
     needs: build
@@ -36,7 +36,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+      url: 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/'
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v5

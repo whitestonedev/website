@@ -1,9 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {themes} = require('prism-react-renderer');
-const lightTheme = themes.github;
-const darkTheme = themes.dracula;
+const { themes } = require('prism-react-renderer')
+const lightTheme = themes.github
+const darkTheme = themes.dracula
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -26,28 +26,32 @@ const config = {
 
   presets: [
     [
-      "@docusaurus/preset-classic",
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
           routeBasePath: '/eventos',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/whitestonedev/landing-page/edit/main/',
-          sidebarItemsGenerator: async function({ defaultSidebarItemsGenerator, ...args }) {
-            const sidebarItems = await defaultSidebarItemsGenerator(args);
+          sidebarItemsGenerator: async function ({
+            defaultSidebarItemsGenerator,
+            ...args
+          }) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args)
             function traverse(items) {
-              return items.map(item => {
+              return items.map((item) => {
                 if (item.type === 'category') {
-                  if (item.label === 'Agenda' && Array.isArray(item.items)) { // Just sorting the 'Agenda' category, by date reverse.
-                    item.items = item.items.reverse();
+                  if (item.label === 'Agenda' && Array.isArray(item.items)) {
+                    // Just sorting the 'Agenda' category, by date reverse.
+                    item.items = item.items.reverse()
                   }
                   if (item.items) {
-                    item.items = traverse(item.items);
+                    item.items = traverse(item.items)
                   }
                 }
-                return item;
-              });
+                return item
+              })
             }
-            return traverse(sidebarItems);
+            return traverse(sidebarItems)
           },
         },
         blog: {
@@ -55,9 +59,9 @@ const config = {
           editUrl: 'https://github.com/whitestonedev/landing-page/edit/main/',
         },
         theme: {
-          customCss: require.resolve("./src/css/index.css"),
+          customCss: require.resolve('./src/css/index.css'),
         },
-      }),
+      },
     ],
   ],
 
@@ -65,9 +69,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark', 
-        disableSwitch: false, 
-        respectPrefersColorScheme: false, 
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'whiteStone_dev',
@@ -79,13 +83,13 @@ const config = {
           {
             to: '/blog',
             label: 'Blog',
-            position: 'left'
+            position: 'left',
           },
           {
-            to: "eventos/home",
-            activeBasePath: "eventos",
-            label: "Eventos",
-            position: "left",
+            to: 'eventos/home',
+            activeBasePath: 'eventos',
+            label: 'Eventos',
+            position: 'left',
           },
           {
             to: 'https://github.com/whitestonedev/landing-page',
@@ -95,11 +99,11 @@ const config = {
         ],
       },
       announcementBar: {
-        id: "new-major-announcement",
+        id: 'new-major-announcement',
         content:
           "We are now on <a href='https://instagram.com/whitestonedev' target='_blank'>Instagram</a> and <a href='#' target='_blank'>YouTube</a> with amazing content.",
-        backgroundColor: "#1786fb",
-        textColor: "#fff",
+        backgroundColor: '#1786fb',
+        textColor: '#fff',
       },
       footer: {
         links: [
@@ -161,6 +165,6 @@ const config = {
       },
     ],
   ],
-};
+}
 
-module.exports = config;
+module.exports = config
