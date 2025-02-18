@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Apoie a whiteStone_dev: Seja um Patrocinador e Colaborador

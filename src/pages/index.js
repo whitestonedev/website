@@ -102,7 +102,7 @@ function Home() {
                     "button button--outline button--secondary button--lg rounded-pill",
                     styles.button
                   )}
-                  to={useBaseUrl("/eventos/intro")}
+                  to={useBaseUrl("/eventos/home")}
                 >
                   Eventos
                 </Link>
@@ -111,7 +111,7 @@ function Home() {
                     "button button--primary button--lg rounded-pill",
                     styles.button
                   )}
-                  to={useBaseUrl("/eventos/sobre-nos")}
+                  to={useBaseUrl("/eventos/sobre/nos")}
                 >
                   Sobre nós
                 </Link>
@@ -143,7 +143,7 @@ function Home() {
                   styles.button,
                   styles.sectionButton
                 )}
-                to={useBaseUrl("/eventos/intro")}
+                to={useBaseUrl("/eventos/home")}
               >
                 Confira os próximos eventos
               </Link>
@@ -168,7 +168,7 @@ function Home() {
                   styles.button,
                   styles.sectionButton
                 )}
-                to={useBaseUrl("/eventos/patrocinio")}
+                to={useBaseUrl("/eventos/sobre/patrocinio")}
               >
                 Descubra como apoiar
               </Link>
