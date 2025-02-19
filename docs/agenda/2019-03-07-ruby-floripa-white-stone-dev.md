@@ -27,6 +27,14 @@ E para finalizar em grande estilo, teremos um **🍻 Happy Hour no Liffey Pub**!
 
 ---
 
+### 🎥 Gravação do Evento
+
+import YouTube from '../../src/YouTube';
+
+<YouTube id="3wZd4rszceo" />
+
+---
+
 ### 🗓️ Cronograma do Evento
 
 - **19h00:** 🚪 Abertura

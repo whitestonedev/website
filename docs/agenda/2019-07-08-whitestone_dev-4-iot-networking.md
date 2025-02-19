@@ -30,7 +30,9 @@ Confira a programação completa do evento:
 
 ### 🎥 Gravação do Evento
 
-(em recuperação)
+import YouTube from '../../src/YouTube';
+
+<YouTube id="p4gOfEFCqto" />
 
 ---
 
