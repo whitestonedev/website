@@ -3,8 +3,7 @@ import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 const Seo = () => {
-  const context = useDocusaurusContext()
-  const { siteConfig = {} } = context
+  const { siteConfig = {} } = useDocusaurusContext()
   const { title, tagline, url } = siteConfig
 
   return (
@@ -13,10 +12,7 @@ const Seo = () => {
       <link rel="canonical" href={url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={tagline} />
-      <meta
-        property="og:image"
-        content={`${url}/img/undraw/social-media-card.png`}
-      />
+      <meta property="og:image" content={`${url}/img/site/logo_blue.svg`} />
       <meta property="og:url" content={url} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
