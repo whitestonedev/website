@@ -78,7 +78,7 @@ const config = {
       navbar: {
         title: 'whiteStone_dev',
         logo: {
-          alt: 'Open source community',
+          alt: 'Comunidade whiteStone_dev',
           src: 'img/site/logo_blue.svg',
         },
         items: [
@@ -103,7 +103,7 @@ const config = {
       announcementBar: {
         id: 'new-major-announcement',
         content:
-          "We are now on <a href='https://instagram.com/whitestonedev' target='_blank'>Instagram</a> and <a href='#' target='_blank'>YouTube</a> with amazing content.",
+          "Estamos agora no <a href='https://instagram.com/whitestonedev' target='_blank'>Instagram</a> e no <a href='https://www.youtube.com/channel/UCopd9koQ5-9ZXEkJ0w-GWQQ' target='_blank'>YouTube</a> com conteúdo incrível.",
         backgroundColor: '#1786fb',
         textColor: '#fff',
       },

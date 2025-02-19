@@ -6,6 +6,10 @@ sidebar_position: 2
 
 A **whiteStone_dev** é uma comunidade open source que respira tecnologia e inovação. Nossos eventos são totalmente gratuitos e abertos a todos que desejam aprender, compartilhar e se conectar com outros profissionais da área. Para continuarmos a impulsionar a comunidade tech e oferecer eventos cada vez melhores, **precisamos do seu apoio!**
 
+## Empresas que já confiaram e apoiaram a whiteStone_dev
+
+{@include: ../agenda/_components/patrocinadores.md}
+
 ## Por Que Patrocinar a whiteStone_dev?
 
 Ao apoiar a **whiteStone_dev**, sua empresa estará investindo diretamente no crescimento da comunidade tecnológica brasileira e se conectando com um público altamente qualificado e engajado. Sua marca será associada a valores como:
