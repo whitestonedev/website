@@ -16,6 +16,14 @@ Preparem-se para o último evento do ano da whiteStone_dev! No dia **01 de novem
 
 ---
 
+### 🎥 Gravação do Evento
+
+import YouTube from '../../src/YouTube';
+
+<YouTube id="sYax9N5Yd4U" />
+
+---
+
 ### 🗓️ Programação do Evento
 
 Confira a programação completa do evento:

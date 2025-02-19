@@ -17,6 +17,14 @@ Preparem-se para um bate-papo essencial sobre **Carreira Dev** na whiteStone_dev
 
 ---
 
+### 🎥 Gravação do Evento
+
+import YouTube from '../../src/YouTube';
+
+<YouTube id="CrzX1Hw_hA0" />
+
+---
+
 ### 🗓️ Cronograma do Evento
 
 Confira o cronograma completo do evento:
